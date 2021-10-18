@@ -1,6 +1,6 @@
 # Mars Rover 
 
-Bu proje, Mars'taki Rover'ı simüle etmektedir.
+Bu proje, Mars'a iniş yapan roverları simüle etmektedir.
 
 #### Gereksinimler
 
