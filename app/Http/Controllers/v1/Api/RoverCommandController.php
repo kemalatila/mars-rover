@@ -36,9 +36,6 @@ class RoverCommandController extends Controller
             }
         }
 
-        // Save the rover state
-        $rover->save();
-
         return new RoverStateResource($rover);
     }
 }

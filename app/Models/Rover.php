@@ -98,6 +98,7 @@ class Rover extends BaseRedisModel
     {
         $this->coordinateX = $coordinateX;
         $this->coordinateY = $coordinateY;
+        $this->save();
     }
 
     /**
@@ -119,6 +120,7 @@ class Rover extends BaseRedisModel
     public function setDirection(string $direction): void
     {
         $this->direction = $direction;
+        $this->save();
     }
 
 
